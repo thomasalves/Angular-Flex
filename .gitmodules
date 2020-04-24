@@ -1,0 +1,3 @@
+[submodule "Angular-Flex"]
+	path = Angular-Flex
+	url = https://github.com/thomasalves/Angular-Flex.git
