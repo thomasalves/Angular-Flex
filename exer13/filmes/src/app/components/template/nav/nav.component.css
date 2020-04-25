@@ -1,0 +1,24 @@
+
+.sidenav{
+
+    background-color: rgb(46, 6, 46);
+    width: 150px;
+    font-family: 'Baloo Bhaina 2', cursive;
+
+
+}
+.sidenav a{
+    color: white;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.sidenav i{
+    padding-right: 10px;
+
+}
+
+.container {
+    padding: 16px;
+    background-color: rgb(46, 6, 46);
+    font-family: 'Baloo Bhaina 2', cursive;
+}

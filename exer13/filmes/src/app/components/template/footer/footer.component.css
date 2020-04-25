@@ -1,0 +1,16 @@
+.footer{
+    font-family: 'Baloo Bhaina 2', cursive;
+
+    background-color: #2e062e;
+    position: relative;
+
+    bottom: 0;
+
+    justify-content: flex-end;
+    width: 100%;
+}
+.footer > span{
+    font-size: 1.1rem;
+    font-weight: 300;
+
+}

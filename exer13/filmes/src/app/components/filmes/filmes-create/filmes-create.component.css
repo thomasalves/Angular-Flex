@@ -1,0 +1,20 @@
+mat-card{
+    margin-left: 20px;
+    background-color: rgb(17, 16, 16);
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+form{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    margin: 20px 15px 0px 0px;
+    border-radius: 8px;
+    width: 100px;
+    text-align: center;
+
+
+}

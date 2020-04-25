@@ -1,0 +1,48 @@
+<div >
+    <table mat-table [dataSource]="filmes">
+
+      <!-- Poster Column -->
+      <ng-container  matColumnDef="Poster">
+        <th class="meio1" mat-header-cell *matHeaderCellDef>Poster</th>
+        <td class="letras1" mat-cell *matCellDef="let row"> <img [src]="row.Poster"/> </td>
+      </ng-container>
+
+      <!-- Name Column -->
+      <ng-container matColumnDef="Nome">
+        <th class="meio" mat-header-cell *matHeaderCellDef>Nome</th>
+        <td class="letras" mat-cell *matCellDef="let row">{{row.Nome}}</td>
+      </ng-container>
+
+      <!-- Ano Column -->
+      <ng-container matColumnDef="Ano">
+        <th class="meio" mat-header-cell *matHeaderCellDef>Ano</th>
+        <td class="letras" mat-cell *matCellDef="let row">{{row.Ano}}</td>
+      </ng-container>
+
+      <!-- Diretor Column -->
+      <ng-container matColumnDef="Diretor">
+        <th class="meio" mat-header-cell *matHeaderCellDef>Diretor</th>
+        <td class="letras" mat-cell *matCellDef="let row">{{row.Diretor}}</td>
+      </ng-container>
+
+      <!-- Genêro Column -->
+      <ng-container matColumnDef="Genero">
+        <th class="meio" mat-header-cell *matHeaderCellDef>Genêro</th>
+        <td class="letras" mat-cell *matCellDef="let row">{{row.Genero}}</td>
+      </ng-container>
+
+      <!-- Descrição Column -->
+      <ng-container matColumnDef="Descricao">
+        <th class="meio" mat-header-cell *matHeaderCellDef>Descrição</th>
+        <td class="letras" mat-cell *matCellDef="let row">{{row.Descricao}}</td>
+      </ng-container>
+
+
+
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+
+
+  </div>

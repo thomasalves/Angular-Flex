@@ -1,0 +1,26 @@
+mat-card{
+    margin-left: 20px;
+    background-color: #111010;
+    width: 95%;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+
+
+.home .title{
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-bottom: 20px;
+
+}
+
+.home img{
+    max-width: 200px;
+    margin-right: 20px;
+
+    margin-bottom: 20px;
+
+
+
+}
