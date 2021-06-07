@@ -9,7 +9,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "json-server --watch FILMES.json --port 3001"
+    "start": "npx json-server --watch FILMES.json --port 3001"
   },
   "keywords": [],
   "author": "",

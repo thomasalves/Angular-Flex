@@ -1,20 +1,15 @@
   table {
     width: 90%;
     height: 100px;
-
     overflow: auto;
     margin-bottom: 30px;
     margin-left: 20px;
-
     background-color: #111010;
   }
 table .meio{
     justify-items: center;
     text-align: center;
     width: 5px;
-
-    border: 1px solid #e0e0e0;
-
 }
 table{
     font-family: 'Baloo Bhaina 2', cursive;
@@ -23,20 +18,12 @@ table{
 table .letras{
     text-align: center;
     align-items: center;
-    border: 1px solid #e0e0e0;
-
-
+    font-size: .7rem;
 }
 table .meio1{
-
-
-    border: 1px solid #e0e0e0;
     width: 10px;
+}
 
-}
-table .letras1{
-    border: 1px solid #e0e0e0;
-}
 
 img{
     width: 100px;

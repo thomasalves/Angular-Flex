@@ -1,38 +1,29 @@
-mat-toolbar i{
-
-    margin-left: 1100px;
-
-}
 
 .header{
     display: flex;
     align-items: center;
     background-color: #000000;
     font-family: 'Baloo Bhaina 2', cursive;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .header a{
     display: flex;
     align-self: center;
     text-decoration: none;
-
-
 }
 
 .header .logo{
-    max-height: 25px;
-
-
-
+    max-height: 60px;
 }
 
 .header .title-group{
     padding-left: 25px ;
-
 }
 
 .header .title-group i{
-    padding-right: 5px ;
+    padding-right: 15px ;
 
 }
 
