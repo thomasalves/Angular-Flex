@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
 })
 export class FilmesService {
 
-  baseUrl = "http://localhost:3001/Filmes"
+  baseUrl = "https://my-json-server.typicode.com/thomasalves/json-server/Filmes"
 
   constructor(private snackBar: MatSnackBar, private http: HttpClient) { }
 
